@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Cacula la Raíz Cuadrada</title>
+	<meta name="name" content="content">
+	
+	<script type="text/javascript">
+		function square() {
+			var num = document.getElementById("nNumber");
+
+			num.value = num.value * num.value;
+		}
+	</script>
+</head>
+<body>
+	<div style="margin: 2px; padding: 5px;">
+		<label for="nNumber">Number: </label>
+		<input type="number" id="nNumber">
+	</div>
+	<button onclick="square()">X<sup>2</sup></button>
+</body>
+</html>
